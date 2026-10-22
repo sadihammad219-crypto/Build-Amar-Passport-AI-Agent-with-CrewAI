@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "currency": "BDT",
+    "fee_values_include_vat": true,
+    "note": "Fee values are from the assignment example and must be verified against the official 2026 fee schedule."
+  },
+  "fees_2026": {
+    "48_pages": {
+      "5_years": {
+        "regular": 4025,
+        "express": 6325,
+        "super_express": 8625
+      },
+      "10_years": {
+        "regular": 5750,
+        "express": 8050,
+        "super_express": 10350
+      }
+    },
+    "64_pages": {
+      "5_years": {
+        "regular": 6325,
+        "express": 8625,
+        "super_express": 12075
+      },
+      "10_years": {
+        "regular": 8050,
+        "express": 10350,
+        "super_express": 13800
+      }
+    }
+  },
+  "policy_2026": {
+    "validity_by_age": {
+      "under_18": {
+        "max_age_exclusive": 18,
+        "allowed_years": [5]
+      },
+      "age_18_to_65": {
+        "min_age": 18,
+        "max_age_inclusive": 65,
+        "allowed_years": [5, 10]
+      },
+      "over_65": {
+        "min_age_exclusive": 65,
+        "allowed_years": [5]
+      }
+    },
+    "identification_by_age": {
+      "under_18": [
+        "Online English Birth Registration Certificate",
+        "Parents' NID"
+      ],
+      "age_18_to_20": [
+        "NID or eligible Online English Birth Registration Certificate; verify current official requirements"
+      ],
+      "over_20": [
+        "NID; verify current official requirements"
+      ]
+    }
+  },
+  "required_docs": {
+    "adult": [
+      "NID Card or applicable identification",
+      "Application Summary",
+      "Payment Slip"
+    ],
+    "minor_under_18": [
+      "Online English Birth Registration Certificate",
+      "Parents' NID",
+      "3R Photo, if required by the applicable rules"
+    ],
+    "government_staff": [
+      "NOC or GO, as applicable",
+      "NID or applicable identification"
+    ],
+    "private_sector": [
+      "NID or applicable identification",
+      "Profession proof, if required"
+    ],
+    "name_change": [
+      "Supporting legal document, such as a Marriage Certificate where applicable"
+    ]
+  }
+}
